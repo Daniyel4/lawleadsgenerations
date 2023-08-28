@@ -1,0 +1,958 @@
+
+
+*:focus{
+    outline: none;
+}
+
+
+
+
+/*Navbar Styles*/
+
+
+.navbar a{
+    font-family: 'inter', sans-serif;
+    font-family: 32px;
+     color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.section1 .top-text strong{
+    font-weight: 700;
+}
+
+.navbar a:hover{
+    color: #fff;
+}
+
+.top-text{
+    font-family: 'inter', sans-serif;
+    font-family: 32px;
+}
+
+.navbar-open{
+    display: none;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+
+/* SECTION STYLES */
+
+
+.section1{
+width: 100%;
+height: 1080px;
+background: url(assets/images/consumergroupoflawyer2.jpeg) no-repeat center center;
+background-size: cover;
+color: #fff;
+}
+
+.section1 > *{
+    position: relative;
+    z-index: 2;
+}
+
+.section1:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1080px;
+    background: rgba( 0, 0, 0, 0.62 );
+}
+
+.section1 h1{
+    
+        width: 950px;
+        height: 231px;
+        font-size: 64px;
+        font-family: 'inter', sans-serif;
+        margin-top: 324px;
+        font-weight: 700;
+        animation-name: fade-In-Text;
+        animation-duration: 2s;
+        animation-timing-function: ease-in;
+        
+
+}
+
+@keyframes fade-In-Text{
+    
+    from{ margin-top: 200px; opacity: 0%; }
+    to{ opacity: 100%; }
+}
+
+
+.section1 strong{
+    
+    font-weight: 400;
+    
+}
+
+
+.paragraph{
+    font-family: 'inter', sans-serif;
+    font-size: 32px;
+    width: 950px;
+    height: 78px;
+    margin-top: 46px;
+}
+
+
+.text-center img{
+    margin-top: 72px;
+}
+
+
+
+/* Styles for leads-form */
+
+
+form {
+    
+    background: #a93132;
+    width: 100%;
+    height: 900px;
+    margin-top: -124px;
+    padding: 63px;
+    z-index: 2;
+    position: relative;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    
+}
+
+
+@keyframes fadeIn{
+    from{margin-top: 0px; opacity: 0%;}
+    to{margin-bottom: -124px; opacity: 100%;}
+}
+
+
+.lead-form-header{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 51px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'inter', sans-serif;
+    font-weight: 700;
+}
+
+
+.form-control{
+    margin-bottom: 58px;
+    border-radius: 0px;
+    width: 300px;
+    height: 50px;
+    font-family: 'inter', sans-serif;
+}
+
+.form-control:focus{
+    box-shadow: 0 0 0 0;
+     border-color: white;
+}
+
+input[type="text"]::placeholder, input[type="tel"]::placeholder, input[type="email"]::placeholder{
+    font-family: 'inter', sans-serif;
+    color: #969681;
+
+}
+
+.form-select{
+    width: 978px;
+    height: 50px;
+    border-radius: 0px;
+    margin-bottom: 58px;
+}
+
+
+.form-select:focus{
+    box-shadow: 0 0 0 0;
+     border-color: white;
+}
+
+
+#inputState{
+    font-family: 'inter', sans-serif;
+}
+
+option{
+    font-family: 'inter', sans-serif;
+}
+
+.textarea .form-control{
+    width: 978px;
+    height: 200px;
+}
+
+.lead-form-container p{
+    text-align: center;
+    font-family: 'inter', sans-serif;
+    color: #fff;
+    width: 960px;
+    height: 48px;
+    margin-bottom: 58px;
+}
+
+.button-container{
+    text-align: center;
+}
+
+.button-container button{
+    width: 500px;
+    height: 92px;
+    background: none;
+    border: 3px solid #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+@keyframes fadeIn-text{
+    
+    from{ opacity: 0%; }
+    to{ opacity: 100%; }
+}
+
+.section2 img{
+    margin-top: 182px;
+    animation-name: fadeIn-text;
+    animation-duration: 6s;
+    
+}
+
+.section2 h1{
+    
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 91px;
+text-transform: uppercase;
+margin-top: 39px;
+animation-name: fadeIn-text;
+animation-duration: 5s;
+}
+
+
+.section2 p{
+    width: 1080px;
+    height: 240px;
+    font-family: 'inter', sans-serif;
+    font-size: 25px;
+    margin-top: 91px;
+    animation-name: fadeIn-text;
+    animation-duration: 5s;
+}
+
+.section3 img{
+    margin-top: 141px;
+}
+
+.section3 h1{
+    margin-top: 42px;
+    font-family: 'inter', sans-serif;
+    font-weight: 700;
+    margin-bottom: 169px;
+    animation-name: fadeIn-text;
+    animation-duration: 5s;
+}
+
+.section3 h2 {
+    width: 60px;
+    height: 50px;
+    background: #a93132;
+    color: #fff;
+    font-family: 'inter', sans-serif;
+    padding: 5px;
+    margin-left: 150px;
+    margin-bottom: 56px;
+    animation-name: fadeIn-text;
+    animation-duration: 3s;
+}
+
+.section3 h4{
+    font-family: "inter", sans-serif;
+    font-weight: 700;
+    margin-bottom: 29px;
+    animation-name: fadeIn-text;
+    animation-duration: 4s;
+}
+
+.section3 p {
+    font-weight: 400;
+    font-family: 'inter', sans-serif;
+    animation-name: fadeIn-text;
+    animation-duration: 5s;
+}
+
+
+.section4{
+    height: 611px;
+}
+
+
+.section4 .container{
+    margin-top: 169px;
+    background: rgba(217, 217, 217, 0.26);
+    padding: 65px;
+    height: 415px;
+    text-align: center;
+}
+
+
+.section4 .container p{
+    margin-top: 104px;
+    font-size: 18px;
+    font-family: 'inter', sans-serif;
+    
+}
+
+
+.section4 h1{
+    margin-top: 41px;
+    font-family: 'inter', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #a93132;
+}
+
+.center-img{
+    text-align: center;
+}
+
+
+ .section5 h1{
+    text-align: center;
+     margin-top: 46px;
+     font-family: 'inter', sans-serif;
+     text-transform: uppercase;
+     font-weight: 700;
+     animation-name: fadeIn-text;
+    animation-duration: 5s;
+}
+
+
+.section5 .row{
+    margin-top: 139px;
+}
+
+
+.section5 p{
+    
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+}
+
+.section5 button{
+    width: 300px;
+    height: 60px;
+    margin-top: 62px;
+    background: none;
+    border: 3px solid #a93132;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: 'inter', sans-serif;
+    font-weight: 600;
+}
+
+
+.section6{
+    height: 729px;
+}
+
+
+.section6 .container{
+    background: #a93132;
+    margin-top: 175px;
+    padding: 65px;
+    height: 500px;
+    text-align: center;
+}
+
+blockquote{
+    font-family: 'inter', sans-serif;
+    margin-top: 28px;
+    color: #fff;
+    width: 1010px;
+    height: 117px;
+    font-size: 32px;
+}
+
+
+.section6 p{
+    
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'inter', sans-serif;
+}
+
+
+.section7{
+    width: 100%;
+    height: 950px;
+    background: url(assets/images/groupoflawyer2.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.section7:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 950px;
+    background: rgba( 0, 0, 0, 0.62 );
+}
+
+
+.section7 > *{
+    position: relative;
+    z-index: 2;
+}
+
+
+.text-content-area .row{
+   margin-top: 469px;
+}
+
+.section7 .row h1{
+    font-family: 'inter', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    animation-name: fade-In-Text;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    
+}
+
+.section7 .row h1 strong{
+    font-weight: 400;
+}
+
+
+
+.section7 button{
+    margin-top: 96px;
+    width: 500px;
+    height: 92px;
+    background: none;
+    border: 3px solid #fff;
+    font-family: 'inter', sans-serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+
+
+footer{
+    
+    width: 100%;
+   padding: 20px;
+    
+}
+
+footer h5{
+    font-size: 20px;
+    color: #c1a4a4;
+    font-family: 'inter', sans-serif;
+
+}
+
+
+/* RESPONSIVE DESIGN */
+
+/* EXTRA LARGE - 1400px */
+
+@media screen and (min-width: 1400px ){
+    
+    
+    .lead-form-header{
+        font-size: 40px;
+    }
+    
+    
+    form{
+        width: 1150px;
+       margin: 0 auto;
+        margin-top: -124px;
+    }
+    
+    .form-control{
+        width: 320px;
+        height: 50px;
+    }
+    
+    .form-select{
+        width: 1048px;
+    }
+    
+    .textarea .form-control{
+        width: 1048px;
+    }
+    
+    
+    .lead-form-container p{
+        width: 908px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .custom-button{
+        margin-top: 77px;
+    }
+    
+    .section5 .custom-button2{
+        margin-top: 122px;
+    }
+    
+    
+    blockquote{
+        margin: 0 auto;
+        font-size: 24px;
+    }
+    
+    .section6 img{
+        margin-bottom: 60px;
+    }
+    
+    .section6 p{
+        margin-top: 60px;
+    }
+    
+    .section6 .container{
+        height: 600px;
+    }
+    
+}
+
+
+/* RESPONSIVE DESIGN */
+
+/* EXTRA LARGE - 992px */
+
+@media screen and (max-width: 992px ){
+    
+    
+    .section1 h1{
+        font-size: 48px;
+        width: 789px;
+        height: 174px;
+    }
+    
+    .paragraph{
+        font-size: 24px;
+        width: 607px;
+        margin: 0 auto;
+        
+    }
+    
+    form{
+        width: 864px;
+        height: 1200px;
+        margin: 0 auto;
+        margin-top: -124px;
+    }
+    
+    .lead-form-header{
+        font-size: 32px;
+    }
+    
+    .lead-form-container form .col-lg-4{
+        width: 100%
+    }
+    
+    .form-control{
+        width: 750px;
+    }
+    
+    .form-select{
+        width: 750px;
+    }
+    
+    .textarea .form-control{
+    width: 750px;
+    
+}
+    
+    
+    .lead-form-container p{
+        width: 660px;
+        margin: 0 auto;
+    }
+    
+    .lead-form-container button{
+        margin-top: 50px;
+    }
+    
+    .section2 p{
+        width: 814px;
+        height: 432px;
+        font-size: 16px;
+    }
+    
+    
+    
+    
+    .section3 h2{
+        margin: 0 auto;
+        margin-bottom: 39px;
+    }
+    
+    .section3 h4{
+        font-size: 16px;
+    }
+    
+    .section3 p{
+        font-size: 12px;
+    }
+    
+    .section5 p{
+        font-size: 14px;
+    }
+    
+    .section5 button {
+        margin-top: 10px;
+    }
+    
+    
+    blockquote{
+        font-size: 24px;
+        width: 700px;
+        margin: 0 auto;
+        margin-top: 60px;
+        
+    }
+    
+     .section6 p{
+        margin-top: 60px;
+    }
+    
+      .section6 .container{
+        height: 600px;
+    }
+    
+    
+}
+
+
+
+/* RESPONSIVE DESIGN */
+
+/* MEDIUM - 768px */
+
+@media screen and (max-width: 768px ){
+    
+    
+    .section1 h1{
+        width: 621px;
+        height: 144px;
+    }
+    
+    .paragraph{
+        width: 506px;
+        height: 48px;
+        margin-top: 70px;
+        
+    }
+    
+    .section1 img{
+        margin-top: 100px;
+    }
+    
+    .lead-form-header{
+        font-size: 26px;
+    }
+    
+    form{
+        width: 689px;
+    }
+    
+    .form-control{
+        width: 540px;
+    }
+    
+    .form-select{
+        width: 540px;
+        text-align: start;
+    }
+    
+        .textarea .form-control{
+    width: 540px;
+    
+}
+    
+    .lead-form-container p{
+        width: 527px;
+        height: 92px;
+    }
+    
+    .section2 h1{
+        font-size: 32px;
+    }
+    
+    .section2 p{
+        width: 603px;
+        height: 576px; 
+    }
+    
+    .section3 h1{
+        font-size: 32px;
+    }
+    
+       .section5 .row{
+        flex-direction: column-reverse;
+        align-content: center;
+    }
+    
+    .section5 h1{
+        font-size: 32px;
+    }
+    
+    .section5 p{
+        margin-top: -50px;
+        text-align: center;
+    }
+    
+    .img-box{
+        margin-top: 30px;
+    }
+    
+    .section5 button{
+        position: absolute;
+        top:  5350px;
+        margin-left: 25px;
+    }
+    
+    
+    blockquote{
+        width: 562px;
+        height: 72px;
+    }
+    
+    
+    footer h5{
+        font-size: 18px;
+    }
+    
+    
+}
+
+
+/* RESPONSIVE DESIGN */
+
+/* MEDIUM - 576px */
+
+@media screen and (max-width: 576px ) {
+    
+    .navbar .top-text{
+        display: none;
+    }
+    
+    .navbar a{
+        font-size: 16px;
+    }
+    
+    .section1 .container-fluid{
+        width: 50%;
+        margin: 0;
+    }
+    
+    .navbar-open{
+    display: block;
+    margin-left: 490px;
+    padding-top: 43px;
+    margin-top: -95px;
+}
+    
+    .close-btn{
+       display: block;
+        margin-left: 490px;
+    padding-top: 43px;
+    }
+    
+    .top-text{
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    
+    .mobile-menu-list{
+        margin-top: 70px;
+    }
+    
+    
+.mobile-menu{
+    
+    display: block;
+    width: 576px;
+    height: 110%;
+    position: absolute;
+    background: #a93132;
+    top: 0;
+    
+}
+    
+    
+    .section1 button{
+        background: none;
+        border: none;
+    }
+    
+  
+    
+    .section1 h1{
+        font-size: 32px;
+        width: 497px;
+    }
+    
+    .paragraph{
+        font-size: 20px;
+        margin-top: 24px;
+    }
+    
+    form{
+        width: 506px;
+    }
+    
+    
+    .form-control{
+        width: 396px;
+    }
+    
+    .form-select{
+        width: 396px;
+    }
+    
+    .textarea .form-control{
+        width: 396px;
+    }
+    
+    .lead-form-container p{
+        font-size: 16px;
+        width: 400px;
+    }
+    
+    .lead-form-container button{
+        width: 358px;
+        height: 62px;
+        font-size: 24px;
+        
+    }
+    
+
+    
+    .section2 p{
+        width: 474px;
+        height: 261px;
+        margin: 0 auto;
+    }
+    
+    .section3 h1{
+        width: 444px;
+        margin: 0 auto;
+        margin-top: 86px;
+        margin-bottom: 55px;
+    }
+    
+    
+    .section3 .center-content {
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    
+    
+    .section4 .container p {
+        font-size: 16px;
+        margin-top: 61px;
+    }
+    
+    
+    
+    
+    .section4 h1 {
+        
+        font-size: 32px;
+    }
+    
+    
+    .section5 h1{
+        width: 464px;
+        margin: 0 auto;
+        margin-top: 90px;
+    }
+    
+    blockquote{
+        font-size: 20px;
+        width: 418px;
+    }
+    
+    .section5 button{
+        
+        top: 5450px;
+        
+    }
+    
+    
+    .section7 button{
+        width: 389px;
+        height: 67px;
+        font-size: 30px;
+        margin: 0 auto;
+        margin-top: 71px;
+    }
+    
+    
+}
+
+/* THANK YOU PAGE STYLES */
+
+.thank-you-section{
+    padding: 100px;
+}
+
+.thank-you-section h1{
+    font-family: 'inter',sans-serif;
+}
+
+.thank-you-section p{
+    font-family: 'inter',sans-serif;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 700px;
+    
+}
+
+footer h5{
+    
+    font-size: 14px;
+    
+}
+
+.thank-you-page-footer{
+    border: 2px solid #F5F5F5;
+}
+
+
+
